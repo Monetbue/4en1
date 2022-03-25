@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".practica1"
+    android:gravity="center">
+
+ <TextView
+     android:id="@+id/textView"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Año Bisiesto"
+     android:textAppearance="?android:attr/textAppearanceLarge" />
+
+ <EditText
+     android:id="@+id/edtxtAnio"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/textView"
+     android:layout_alignStart="@+id/btnVerificar"
+     android:ems="10"
+     android:gravity="center"
+     android:inputType="number"
+     android:maxLength="4" />
+
+ <Button
+     android:id="@+id/btnVerificar"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@id/edtxtAnio"
+     android:text="VERIFICAR"
+     android:textColor="#FFFFFF" />
+
+ <TextView
+     android:id="@+id/resultado"
+     android:layout_width="232dp"
+     android:layout_height="55dp"
+     android:layout_below="@id/btnVerificar"
+     android:layout_alignStart="@+id/btnVerificar"
+     android:layout_alignEnd="@+id/btnVerificar"
+     android:layout_centerInParent="true"
+     android:layout_marginStart="0dp"
+     android:layout_marginEnd="-120dp"
+     android:gravity="center"
+     android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+ <Button
+     android:id="@+id/comeback"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@id/resultado"
+     android:layout_alignStart="@+id/resultado"
+     android:layout_marginStart="0dp"
+     android:layout_marginTop="167dp"
+     android:text="Regresar" />
+
+
+</RelativeLayout>

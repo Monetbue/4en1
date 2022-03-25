@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DAMI_Practica5_Intent1</string>
+    <string name="btn1">Practica 1</string>
+    <string name="btn2">Practica 2</string>
+    <string name="btn3">Practica 3</string>
+    <string name="btn4">Practica 4</string>
+    <string name="btn5">Practica 5</string>
+</resources>
